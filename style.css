@@ -1,0 +1,16 @@
+/**Style sheet for JavaScript Challenge
+@author Nehomah
+**/
+
+html {
+	box-sizing: border-box;
+	font-family: fantasy, sans-serif;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+img {
+	width: 100%;
+	height: auto;
+}
