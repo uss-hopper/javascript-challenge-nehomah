@@ -31,3 +31,10 @@ function randomize() {
 	});
 }
 
+/**
+ * replacing using regular expression function
+ */
+function personalize() {
+		let newPurpleRain = document.getElementById("muse").innerHTML.replace(/you/gi, 'Nehomah');
+		document.getElementById("muse").innerHTML = newPurpleRain;
+}
